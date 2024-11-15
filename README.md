@@ -62,6 +62,26 @@ values.
 
 You can access the service at `http://0.0.0.0`.
 
+## Create a New User
+
+If you have `Make` installed, you can use the `Makefile` to create a new user:
+
+```shell
+  make create_user
+```
+or you can use `Go Command` directly:
+
+```shell
+cd cmd && go run mongo_create_user_cmd.go
+```
+
+If you are inside a Docker container, you can use the following command:
+
+```shell
+docker exec -it <container_id> ./mongo_create_user_cmd # Using Docker
+docker compose exec <container_id> ./mongo_create_user_cmd # Using Docker Compose
+```
+
 ## Testing
 
 To run the tests, you can use the `Makefile`:
@@ -74,11 +94,4 @@ Or use `Go Command` directly:
 
 ```shell
   go test -v -cover -race ./...
-```
-
-If you are in Docker, you can use the following command:
-
-```shell
-  docker exec -it <container_id> go test --race -cover -v ./... # Using Docker
-  docker compose exec <container_id> go test --race -cover -v ./... # Using Docker Compose
 ```

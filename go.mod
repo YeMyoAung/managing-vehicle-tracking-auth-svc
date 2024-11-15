@@ -7,7 +7,7 @@ require (
 	github.com/go-playground/validator/v10 v10.22.1
 	github.com/goccy/go-json v0.10.3
 	github.com/yemyoaung/managing-vehicle-tracking-common v0.0.0-20241115082421-5b8e9da89503
-	github.com/yemyoaung/managing-vehicle-tracking-models v0.0.0-20241114124928-ba6ec1a49895
+	github.com/yemyoaung/managing-vehicle-tracking-models v0.0.0-20241115084429-f376a7a606d4
 	go.mongodb.org/mongo-driver v1.17.1
 )
 
@@ -21,7 +21,6 @@ require (
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/rabbitmq/amqp091-go v1.10.0 // indirect
-	github.com/streadway/amqp v1.1.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
