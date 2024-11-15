@@ -7,9 +7,9 @@ login, and token validation (simple JWT validation).
 
 Ensure you have the following installed:
 
+- **GO >= 1.23.3**: [Install GO](https://go.dev/doc/install)
 - **Docker**: [Install Docker](https://docs.docker.com/get-started/get-docker/)
 - **Docker Compose**: [Install Docker Compose](https://docs.docker.com/compose/install/)
-- **GO**: [Install GO](https://go.dev/doc/install)
 
 ## Project Structure
 
